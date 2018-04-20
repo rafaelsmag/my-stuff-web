@@ -5,12 +5,12 @@ import {
   HOME
 } from '../config/constants/appRoutes'
 
-import Home from '../modules/home/containers/Home'
+import HomeScreen from '../modules/home/containers/HomeScreen'
 import NotFound from '../modules/shared/containers/NotFound'
 
 const Routes = props => (
   <Switch>
-    <Route exact path={HOME} component={Home} />
+    <Route exact path={HOME} component={HomeScreen} />
     <Route component={NotFound} />
   </Switch>
 )
