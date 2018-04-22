@@ -1,16 +1,14 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
-import {
-  HOME
-} from '../config/constants/appRoutes'
+import { AppRoutes } from '../config/constants'
 
 import HomeScreen from '../modules/home/containers/HomeScreen'
 import NotFound from '../modules/shared/containers/NotFound'
 
 const Routes = props => (
   <Switch>
-    <Route exact path={HOME} component={HomeScreen} />
+    <Route exact path={AppRoutes.HOME} component={HomeScreen} />
     <Route component={NotFound} />
   </Switch>
 )
