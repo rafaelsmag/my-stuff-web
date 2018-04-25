@@ -7,6 +7,8 @@ export const Metrics = {
   largeSpacing: '24px',
   xlSpacing: '32px',
 
+  tinyImage: '20px',
+
   borderWidth: '1px',
   borderRadius: '4px'
 }
