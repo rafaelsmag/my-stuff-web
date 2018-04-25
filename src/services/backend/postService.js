@@ -14,6 +14,10 @@ export function getPosts () {
         {
           _id: i,
           name: 'Sobremesas'
+        },
+        {
+          _id: i + 1,
+          name: 'Bolo'
         }
       ]
     })

@@ -34,19 +34,15 @@ Tags.propTypes = {
 const styles = {
   container: {
     display: 'flex',
-    flex: '1 1 auto',
+    flex: '1',
     marginBottom: Metrics.xsSpacing,
     flexWrap: 'wrap'
   },
   tagName: {
-    margin: `0 ${Metrics.xxsSpacing} ${Metrics.xxsSpacing} 0`,
-    padding: Metrics.xxsSpacing,
-    // backgroundColor: Colors.lightBackground,
+    margin: `0 ${Metrics.xxsSpacing} ${Metrics.xxsSpacing} ${Metrics.xxsSpacing}`,
     borderRadius: Fonts.size.tiny,
     fontSize: Fonts.size.tiny,
-    lineHeight: Fonts.size.tiny,
     color: Colors.primary,
-    // textTransform: 'uppercase',
     fontWeight: '600'
   }
 }

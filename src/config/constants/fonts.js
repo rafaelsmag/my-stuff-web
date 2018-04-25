@@ -1,30 +1,30 @@
 const type = {
   light: {
-    // fontFamily: 'sans-serif-light'
+    fontFamily: 'Open Sans'
   },
   regular: {
-    // fontFamily: 'sans-serif'
+    fontFamily: 'Open Sans'
   },
   medium: {
-    // fontFamily: 'sans-serif-medium'
+    fontFamily: 'Roboto'
   }
 }
 
 const size = {
-  h1: '42px',
-  h2: '36px',
-  h3: '28px',
-  h4: '22px',
-  h5: '20px',
-  h6: '19px',
-  input: '15px',
-  regular: '17px',
-  button: '14px',
-  secondaryButton: '12px',
-  medium: '15px',
-  small: '13px',
-  tiny: '11px',
-  xs: '8px'
+  h1: '2.5em',
+  h2: '2em',
+  h3: '1.9em',
+  h4: '1.8em',
+  h5: '1.5em',
+  h6: '1.3em',
+  input: '1em',
+  regular: '1.1em',
+  button: '0.9em',
+  secondaryButton: '0.85em',
+  medium: '1em',
+  small: '0.9em',
+  tiny: '0.8em',
+  xs: '0.6em'
 }
 
 const lineHeight = {
