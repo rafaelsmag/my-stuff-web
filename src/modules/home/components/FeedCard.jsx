@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { Image, Card } from 'semantic-ui-react'
 import CardFeed from '../../shared/components/Card'
-import CardHeader from '../../shared/components/CardHeader'
+import CardHeader from './CardHeader'
+import CardBody from './CardBody'
 
 class FeedCard extends Component {
   render () {
@@ -9,12 +9,7 @@ class FeedCard extends Component {
     return (
       <CardFeed>
         <CardHeader title={post.title} tags={post.tags} author={post.user}/>
-        <Image src={post.images[0]} fluid/>
-        <Card.Content>
-          <Card.Description>
-            {post.body}
-          </Card.Description>
-        </Card.Content>
+        <CardBody images={post.images} text={post.body} />
       </CardFeed>
     )
   }
