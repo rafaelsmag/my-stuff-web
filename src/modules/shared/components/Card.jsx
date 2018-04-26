@@ -27,10 +27,11 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     flex: 1,
+    flexWrap: 'wrap',
     backgroundColor: Colors.white,
-    border: `${Metrics.borderWidth} solid ${Colors.darkDivider}`,
     borderRadius: Metrics.borderRadius,
-    marginBottom: Metrics.standardSpacing
+    marginBottom: Metrics.standardSpacing,
+    boxShadow: '0 2px 5px rgba(0, 0, 0, 0.2), 0 2px 10px rgba(0, 0, 0, 0.15)'
   }
 }
 
