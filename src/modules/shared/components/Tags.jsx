@@ -6,7 +6,7 @@ import { Metrics, Fonts, Colors } from '../../../config/constants'
 
 const renderTags = (tags, onClick) => {
   return tags.map((tag) => (
-    <Div css={styles.tagName} onClick={() => onClick(tag)}>{tag.name}</Div>
+    <Div css={styles.tagName} key={tag._id} onClick={() => onClick(tag)}>{tag.name}</Div>
   ))
 }
 
@@ -35,7 +35,7 @@ const styles = {
   container: {
     display: 'flex',
     flex: '1',
-    marginBottom: Metrics.xsSpacing,
+    marginTop: Metrics.xsSpacing,
     flexWrap: 'wrap'
   },
   tagName: {

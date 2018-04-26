@@ -16,7 +16,7 @@ const SmallAvatarRow = ({image, title}) => (
 )
 
 SmallAvatarRow.defaultProps = {
-  image: ''
+  image: undefined
 }
 
 SmallAvatarRow.propTypes = {
@@ -28,7 +28,8 @@ const styles = {
   container: {
     display: 'flex',
     flex: 1,
-    flexDirection: 'row'
+    flexDirection: 'row',
+    marginTop: Metrics.xxsSpacing
   },
   avatarImage: {
     width: Metrics.tinyImage,
