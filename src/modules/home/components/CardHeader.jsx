@@ -41,7 +41,7 @@ CardHeader.propTypes = {
   })
 }
 
-const styles = {
+export const styles = {
   cardHeader: {
     padding: Metrics.smallSpacing
     // borderBottom: `${Metrics.borderWidth} ${Colors.darkDivider} solid`
