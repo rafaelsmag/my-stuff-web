@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedCard Component should redenders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FeedCard
+    post={
+        Object {
+            "_id": "1",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque, risus sit amet blandit molestie, nunc tellus elementum sem, eu condimentum odio nibh quis arcu. Etiam consectetur libero et lectus ultricies, sed convallis nisl rutrum. Nunc a dolor quis tortor congue facilisis quis quis magna. Nulla facilisi. Nulla cursus tellus felis, varius venenatis sapien vulputate nec. Vestibulum vel lacus dignissim risus iaculis malesuada. Sed accumsan sem in mi ornare luctus. Donec nec odio porttitor, sollicitudin mi non, rutrum justo. Pellentesque eu ultricies erat, et posuere sem. Ut ac mi vitae ipsum rutrum posuere. Nam dignissim pellentesque ipsum, et semper nibh pellentesque nec. Etiam eleifend, libero sit amet ultricies ullamcorper, urna augue dictum odio, id ultricies ligula odio nec ex.",
+            "images": Array [
+              "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg",
+            ],
+            "tags": Array [
+              Object {
+                "_id": "1",
+                "name": "Sobremesas",
+              },
+              Object {
+                "_id": "2",
+                "name": "Bolo",
+              },
+            ],
+            "title": "Lorem ipsum dolor sit amet",
+            "user": Object {
+              "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+              "name": "Steve Sanders",
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <CardHeader
+          author={
+                    Object {
+                              "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+                              "name": "Steve Sanders",
+                            }
+          }
+          onClick={[Function]}
+          tags={
+                    Array [
+                              Object {
+                                "_id": "1",
+                                "name": "Sobremesas",
+                              },
+                              Object {
+                                "_id": "2",
+                                "name": "Bolo",
+                              },
+                            ]
+          }
+          title="Lorem ipsum dolor sit amet"
+/>,
+        <CardBody
+          images={
+                    Array [
+                              "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg",
+                            ]
+          }
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque, risus sit amet blandit molestie, nunc tellus elementum sem, eu condimentum odio nibh quis arcu. Etiam consectetur libero et lectus ultricies, sed convallis nisl rutrum. Nunc a dolor quis tortor congue facilisis quis quis magna. Nulla facilisi. Nulla cursus tellus felis, varius venenatis sapien vulputate nec. Vestibulum vel lacus dignissim risus iaculis malesuada. Sed accumsan sem in mi ornare luctus. Donec nec odio porttitor, sollicitudin mi non, rutrum justo. Pellentesque eu ultricies erat, et posuere sem. Ut ac mi vitae ipsum rutrum posuere. Nam dignissim pellentesque ipsum, et semper nibh pellentesque nec. Etiam eleifend, libero sit amet ultricies ullamcorper, urna augue dictum odio, id ultricies ligula odio nec ex."
+/>,
+      ],
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "author": Object {
+            "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+            "name": "Steve Sanders",
+          },
+          "onClick": [Function],
+          "tags": Array [
+            Object {
+              "_id": "1",
+              "name": "Sobremesas",
+            },
+            Object {
+              "_id": "2",
+              "name": "Bolo",
+            },
+          ],
+          "title": "Lorem ipsum dolor sit amet",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "images": Array [
+            "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg",
+          ],
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque, risus sit amet blandit molestie, nunc tellus elementum sem, eu condimentum odio nibh quis arcu. Etiam consectetur libero et lectus ultricies, sed convallis nisl rutrum. Nunc a dolor quis tortor congue facilisis quis quis magna. Nulla facilisi. Nulla cursus tellus felis, varius venenatis sapien vulputate nec. Vestibulum vel lacus dignissim risus iaculis malesuada. Sed accumsan sem in mi ornare luctus. Donec nec odio porttitor, sollicitudin mi non, rutrum justo. Pellentesque eu ultricies erat, et posuere sem. Ut ac mi vitae ipsum rutrum posuere. Nam dignissim pellentesque ipsum, et semper nibh pellentesque nec. Etiam eleifend, libero sit amet ultricies ullamcorper, urna augue dictum odio, id ultricies ligula odio nec ex.",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <CardHeader
+            author={
+                        Object {
+                                    "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+                                    "name": "Steve Sanders",
+                                  }
+            }
+            onClick={[Function]}
+            tags={
+                        Array [
+                                    Object {
+                                      "_id": "1",
+                                      "name": "Sobremesas",
+                                    },
+                                    Object {
+                                      "_id": "2",
+                                      "name": "Bolo",
+                                    },
+                                  ]
+            }
+            title="Lorem ipsum dolor sit amet"
+/>,
+          <CardBody
+            images={
+                        Array [
+                                    "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg",
+                                  ]
+            }
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque, risus sit amet blandit molestie, nunc tellus elementum sem, eu condimentum odio nibh quis arcu. Etiam consectetur libero et lectus ultricies, sed convallis nisl rutrum. Nunc a dolor quis tortor congue facilisis quis quis magna. Nulla facilisi. Nulla cursus tellus felis, varius venenatis sapien vulputate nec. Vestibulum vel lacus dignissim risus iaculis malesuada. Sed accumsan sem in mi ornare luctus. Donec nec odio porttitor, sollicitudin mi non, rutrum justo. Pellentesque eu ultricies erat, et posuere sem. Ut ac mi vitae ipsum rutrum posuere. Nam dignissim pellentesque ipsum, et semper nibh pellentesque nec. Etiam eleifend, libero sit amet ultricies ullamcorper, urna augue dictum odio, id ultricies ligula odio nec ex."
+/>,
+        ],
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "author": Object {
+              "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+              "name": "Steve Sanders",
+            },
+            "onClick": [Function],
+            "tags": Array [
+              Object {
+                "_id": "1",
+                "name": "Sobremesas",
+              },
+              Object {
+                "_id": "2",
+                "name": "Bolo",
+              },
+            ],
+            "title": "Lorem ipsum dolor sit amet",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "images": Array [
+              "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg",
+            ],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque, risus sit amet blandit molestie, nunc tellus elementum sem, eu condimentum odio nibh quis arcu. Etiam consectetur libero et lectus ultricies, sed convallis nisl rutrum. Nunc a dolor quis tortor congue facilisis quis quis magna. Nulla facilisi. Nulla cursus tellus felis, varius venenatis sapien vulputate nec. Vestibulum vel lacus dignissim risus iaculis malesuada. Sed accumsan sem in mi ornare luctus. Donec nec odio porttitor, sollicitudin mi non, rutrum justo. Pellentesque eu ultricies erat, et posuere sem. Ut ac mi vitae ipsum rutrum posuere. Nam dignissim pellentesque ipsum, et semper nibh pellentesque nec. Etiam eleifend, libero sit amet ultricies ullamcorper, urna augue dictum odio, id ultricies ligula odio nec ex.",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
