@@ -1,9 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Div } from 'glamorous'
-import CardHeader, { styles } from '../../../modules/home/components/CardHeader'
-import SmallAvatarRow from '../../../modules/shared/components/rows/SmallAvatarRow'
-import Tags from '../../../modules/shared/components/Tags'
+import CardHeader from '../../../modules/home/components/CardHeader'
 
 const props = {
   onClick: () => {},
