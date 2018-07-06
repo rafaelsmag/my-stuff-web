@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedCard Component should redenders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CardHeader
+    author={
+        Object {
+            "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+            "name": "Steve Sanders",
+          }
+    }
+    onClick={[Function]}
+    tags={
+        Array [
+            Object {
+              "_id": "1",
+              "name": "Sobremesas",
+            },
+            Object {
+              "_id": "2",
+              "name": "Bolo",
+            },
+          ]
+    }
+    title="Lorem ipsum dolor sit amet"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <glamorous.Div
+          css={
+                    Object {
+                              "fontSize": "1.5em",
+                              "paddingBottom": "4px",
+                              "paddingTop": "4px",
+                            }
+          }
+>
+          Lorem ipsum dolor sit amet
+</glamorous.Div>,
+        <Tags
+          onClickTag={[Function]}
+          tags={
+                    Array [
+                              Object {
+                                "_id": "1",
+                                "name": "Sobremesas",
+                              },
+                              Object {
+                                "_id": "2",
+                                "name": "Bolo",
+                              },
+                            ]
+          }
+/>,
+        <SmallAvatarRow
+          image="https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png"
+          title="Steve Sanders"
+/>,
+      ],
+      "css": Object {
+        "padding": "12px",
+      },
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Lorem ipsum dolor sit amet",
+          "css": Object {
+            "fontSize": "1.5em",
+            "paddingBottom": "4px",
+            "paddingTop": "4px",
+          },
+        },
+        "ref": null,
+        "rendered": "Lorem ipsum dolor sit amet",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "onClickTag": [Function],
+          "tags": Array [
+            Object {
+              "_id": "1",
+              "name": "Sobremesas",
+            },
+            Object {
+              "_id": "2",
+              "name": "Bolo",
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+          "title": "Steve Sanders",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <glamorous.Div
+            css={
+                        Object {
+                                    "fontSize": "1.5em",
+                                    "paddingBottom": "4px",
+                                    "paddingTop": "4px",
+                                  }
+            }
+>
+            Lorem ipsum dolor sit amet
+</glamorous.Div>,
+          <Tags
+            onClickTag={[Function]}
+            tags={
+                        Array [
+                                    Object {
+                                      "_id": "1",
+                                      "name": "Sobremesas",
+                                    },
+                                    Object {
+                                      "_id": "2",
+                                      "name": "Bolo",
+                                    },
+                                  ]
+            }
+/>,
+          <SmallAvatarRow
+            image="https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png"
+            title="Steve Sanders"
+/>,
+        ],
+        "css": Object {
+          "padding": "12px",
+        },
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Lorem ipsum dolor sit amet",
+            "css": Object {
+              "fontSize": "1.5em",
+              "paddingBottom": "4px",
+              "paddingTop": "4px",
+            },
+          },
+          "ref": null,
+          "rendered": "Lorem ipsum dolor sit amet",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "onClickTag": [Function],
+            "tags": Array [
+              Object {
+                "_id": "1",
+                "name": "Sobremesas",
+              },
+              Object {
+                "_id": "2",
+                "name": "Bolo",
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+            "title": "Steve Sanders",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

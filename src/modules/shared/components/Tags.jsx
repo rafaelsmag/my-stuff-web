@@ -4,9 +4,9 @@ import { Icon } from 'semantic-ui-react'
 import { Div } from 'glamorous'
 import { Metrics, Fonts, Colors } from '../../../config/constants'
 
-const renderTags = (tags, onClick) => {
+export const renderTags = (tags, onClick) => {
   return tags.map((tag) => (
-    <Div css={styles.tagName} key={tag._id} onClick={() => onClick(tag)}>{tag.name}</Div>
+    <Div id={tag._id} css={styles.tagName} key={tag._id} onClick={() => onClick(tag)}>{tag.name}</Div>
   ))
 }
 

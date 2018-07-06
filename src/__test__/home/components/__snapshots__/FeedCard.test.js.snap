@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedCard Component should redenders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FeedCard
+    post={
+        Object {
+            "_id": "1",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "images": Array [
+              "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg",
+            ],
+            "tags": Array [
+              Object {
+                "_id": "1",
+                "name": "Sobremesas",
+              },
+              Object {
+                "_id": "2",
+                "name": "Bolo",
+              },
+            ],
+            "title": "Lorem ipsum dolor sit amet",
+            "user": Object {
+              "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+              "name": "Steve Sanders",
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <CardHeader
+          author={
+                    Object {
+                              "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+                              "name": "Steve Sanders",
+                            }
+          }
+          onClick={[Function]}
+          tags={
+                    Array [
+                              Object {
+                                "_id": "1",
+                                "name": "Sobremesas",
+                              },
+                              Object {
+                                "_id": "2",
+                                "name": "Bolo",
+                              },
+                            ]
+          }
+          title="Lorem ipsum dolor sit amet"
+/>,
+        <CardBody
+          images={
+                    Array [
+                              "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg",
+                            ]
+          }
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+/>,
+      ],
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "author": Object {
+            "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+            "name": "Steve Sanders",
+          },
+          "onClick": [Function],
+          "tags": Array [
+            Object {
+              "_id": "1",
+              "name": "Sobremesas",
+            },
+            Object {
+              "_id": "2",
+              "name": "Bolo",
+            },
+          ],
+          "title": "Lorem ipsum dolor sit amet",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "images": Array [
+            "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg",
+          ],
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <CardHeader
+            author={
+                        Object {
+                                    "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+                                    "name": "Steve Sanders",
+                                  }
+            }
+            onClick={[Function]}
+            tags={
+                        Array [
+                                    Object {
+                                      "_id": "1",
+                                      "name": "Sobremesas",
+                                    },
+                                    Object {
+                                      "_id": "2",
+                                      "name": "Bolo",
+                                    },
+                                  ]
+            }
+            title="Lorem ipsum dolor sit amet"
+/>,
+          <CardBody
+            images={
+                        Array [
+                                    "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg",
+                                  ]
+            }
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+/>,
+        ],
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "author": Object {
+              "image": "https://www.shareicon.net/data/128x128/2016/07/26/802026_man_512x512.png",
+              "name": "Steve Sanders",
+            },
+            "onClick": [Function],
+            "tags": Array [
+              Object {
+                "_id": "1",
+                "name": "Sobremesas",
+              },
+              Object {
+                "_id": "2",
+                "name": "Bolo",
+              },
+            ],
+            "title": "Lorem ipsum dolor sit amet",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "images": Array [
+              "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg",
+            ],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
